@@ -1,0 +1,96 @@
+<p>client works!</p>
+<div>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/client/list">List</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/client/create">Create</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+</div>
+
+
+<!--link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+<div class="carousel" data-bs-ride="carousel">
+  <div class="carousel-item active">
+    <div class="col-md-3">
+      <div class="card">
+        <div class="card-body">
+          <img src="assets/images/Catalogo/papel.jpg" alt="" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="carousel-inner">
+    <div class="col-md-3">
+      <div class="card">
+        <div class="card-body">
+          <img src="assets/images/Catalogo/papel.jpg" alt="" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="carousel-inner">
+    <div class="col-md-3">
+      <div class="card">
+        <div class="card-body">
+          <img src="assets/images/Catalogo/papel.jpg" alt="" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="carousel-inner">
+    <div class="col-md-3">
+      <div class="card">
+        <div class="card-body">
+          <img src="assets/images/Catalogo/papel.jpg" alt="" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="carousel-inner">
+    <div class="col-md-3">
+      <div class="card">
+        <div class="card-body">
+          <img src="assets/images/Catalogo/papel.jpg" alt="" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+<script>
+  var items = document.querySelectorAll('.carousel .carousel-item');
+  items.forEach((e)=>{
+    const slide = 4;
+    let next = e.nextElementSibling;
+    for (var i =0; i < slide; i++){
+      if (!next){
+        next = items[0]
+      }
+      let clonechild = next.cloneNode(true)
+      e.appendChild(clonechild.children[0])
+      next = next.nextElementSibling
+    }
+  })
+</script-->
